@@ -1,0 +1,169 @@
+html part:
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>website</title>
+<link rel="stylesheet" type="text/css" href="C:\Users\Indus\Desktop\PRACTICE WEBSITES\PAGES\hass.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+<div class="strtimage">
+<div class="hedmnu">
+<div class="lftmnu">
+<h4>BURGERSHACK</h4></div>
+<div class="rgtmnu">
+ <ul>
+<li id="hme">Home</li>
+<li>About</li>
+<li>Menu/ORDER ONLINE</li>
+<li>Catering</li>
+<li>Contact</li>
+</ul>
+</div>
+</div>
+<div class="text">
+<h4>WORK-SLEEP-BURGER</h4>
+<h1>HANDLE WITH HUNGER</h1>
+<h3>WE ARE THE ONE WHO PROVIDE DESIRE TASTE YOU WANT</h3>
+<button id="btn1">Login</button>
+<button id="btn2">Sign-up</button>
+</div>
+</div>
+	
+</body>
+</html>
+----------------------------------------CSS- PART-----------------------------------------------------------------------------------
+*{
+   margin:0px;
+   padding:0px;
+}
+.strtimage{
+   background-image:url("b7.jpg");
+   background-size:100%,100%;
+   height:100vh;
+   width:100%;
+   }
+.hedmnu{
+  width:100%;
+  height:80px;
+  background-color:rgba(0, 0,0,0.5);
+}
+.lftmnu{
+   width:25%;
+   line-height:80px;
+   float:left;
+
+
+}
+.lftmnu h4{
+padding-left:70px;
+font-weight:bold;
+color:white;
+font-size:22px;
+font-family: 'Montserrat', sans-serif;
+}
+.rgtmnu{
+  width:70%;
+  height:100px;
+  float:right; /*---for float on right*/
+
+}
+.rgtmnu ul{
+  margin-left:200px; /* for taking whole thing on left*/
+
+}
+
+
+.rgtmnu ul li{
+  font-family: 'Montserrat', sans-serif;
+  display:inline-block;
+  list-style:none;
+  font-size:15px; /*for position and sixe*/
+  color:white;
+  font-weight:bold;
+  line-height:100px;
+  margin-left:40px; /*for gaping*/
+  text-transform:uppercase;
+}
+#hme{
+  color:orange;
+}
+.rgtmnu ul li:hover{
+color:orange;}
+.text{
+width:100%;
+margin-top:180px;
+text-transform:uppercase;
+text-align:center;
+color:white;
+
+}
+.text h4
+{ 
+  font-size:14px;
+ font-family: 'Open Sans', sans-serif;
+}
+.text h1{
+font-size:70px;
+font-family: 'Montserrat', sans-serif;
+font-weight:bold;
+margin:14px 0;}
+.text h3
+{
+font-size:12px;
+font-family: 'Open Sans', sans-serif;
+}
+#btn1
+{
+  background-color:white;
+  border:none;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:bold;
+  line-height:40px;
+  width:150px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top:25px;
+  border:3px solid white;
+}
+#btn2{
+     background-color:transparent;
+     border:none;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:bold;
+  line-height:40px;
+  width:150px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top:25px;
+  border:3px solid white;
+  color:white;
+     
+  
+}
+  
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
